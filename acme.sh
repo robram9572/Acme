@@ -20,6 +20,6 @@ curl https://get.acme.sh | sh -s email=my@example.com
 source ~/.bashrc
 
 申请证书
-~/.acme.sh/acme.sh --set-default-ca --server letsencrypt
+#~/.acme.sh/acme.sh --set-default-ca --server letsencrypt
 ~/.acme.sh/acme.sh --issue -d "$domainName" --standalone -k ec-256
 ~/.acme.sh/acme.sh --installcert -d "$domainName" --key-file /root/private.key --fullchain-file /root/cert.crt --ecc
