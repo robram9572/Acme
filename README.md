@@ -10,4 +10,4 @@ curl -s https://raw.githubusercontent.com/robram9572/Acme/main/acmeyg.sh | bash 
 
 或
 
-wget -N --no-check-certificate "https://raw.githubusercontent.com/robram9572/Acme/main/acmeyg.sh" && chmod +x bbr1k.sh && ./acmeyg.sh
+wget -N --no-check-certificate "https://raw.githubusercontent.com/robram9572/Acme/main/acmeyg.sh" && chmod +x acmeyg.sh && ./acmeyg.sh
