@@ -11,7 +11,7 @@ apt install -y curl
 apt install -y socat
 
 #安装acme.sh
-curl https://get.acme.sh | sh -s email=my@example.com
+curl https://get.acme.sh | sh -s email=gerryxm@gmail.com
 
 #立刻加载修改后设置，使之生效
 source ~/.bashrc
